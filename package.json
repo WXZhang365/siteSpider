@@ -1,0 +1,21 @@
+{
+  "name": "company-website",
+  "version": "1.0.1",
+  "scripts": {
+    "build": "node ./tool/build.mjs",
+    "save": "node ./save.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.35",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.3",
+    "axios": "^1.7.3",
+    "cheerio": "1.0.0-rc.12",
+    "typescript": "^5.5.4"
+  }
+}
